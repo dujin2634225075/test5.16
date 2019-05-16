@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html,
+body,
+.wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.header {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    ul {
+        width: 100%;
+        display: flex;
+        border: 1px solid #aaa;
+        li {
+            width: 33%;
+            text-align: center;
+        }
+        .active {
+            color: blue;
+            border-bottom: 2px solid blue;
+        }
+    }
+}
